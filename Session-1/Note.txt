@@ -6,9 +6,13 @@ mkdir: create a new folder
 print ("something not very interesting in here lol")
 python + first letter of the folder name + tab (until the folder is found)
 (up): redo the previous step
-GIT
+GIT setup
 git init: zip file and send to github acc
-git add README.md
-git commit -m "first commit"
 git remote add origin + link https from repository on github
+git stage .
+git commit -m "comment"
 git push -u origin master
+GIT thereafter
+Git add .
+Git commit -m "commit"
+Git push 
