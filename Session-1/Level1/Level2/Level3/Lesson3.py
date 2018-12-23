@@ -1,0 +1,1 @@
+print("It's the third lesson")
