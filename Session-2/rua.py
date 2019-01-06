@@ -2,7 +2,7 @@ from turtle import *
 
 shape("turtle")
 color ("blue")
-speed(-5)
+speed(-13) #large number means low speed
 
 forward(100)
 right(90)
