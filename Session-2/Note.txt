@@ -1,0 +1,20 @@
+Data type: 
+str: "anything between here is a string"
+int: just integers
+float: just real numbers
+
+input("requirements for the wanted type of input")
+
+python in Terminal: Code trực tiếp
+
++: plus
+-: minus
+*: multiply
+/: divide
+
+**n: expotinent of n
+//: chia lấy phần nguyên
+
+
+#:Comment code
+Bôi đen code + Ctrl / --> Comment code

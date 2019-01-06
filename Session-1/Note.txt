@@ -6,6 +6,7 @@ mkdir: create a new folder
 print ("something not very interesting in here lol")
 python + first letter of the folder name + tab (until the folder is found)
 (up): redo the previous step
+Open folder in Terminal -> python + file name
 
 GIT setup
 
