@@ -1,1 +1,1 @@
-pyprint("We're C4T-11")
+print("We're C4T-11")
