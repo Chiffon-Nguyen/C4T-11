@@ -1,2 +1,0 @@
-print("Nguyen Tra My")
-

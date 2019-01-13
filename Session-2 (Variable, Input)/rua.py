@@ -12,7 +12,10 @@ forward(100)
 right(90)
 forward(100)
 right(90)
+
 left(30)
+
+#hết hình vuông 1
 forward(100)
 right(90)
 forward(100)
@@ -21,7 +24,10 @@ forward(100)
 right(90)
 forward(100)
 right(90)
+
 left(30)
+
+#hết hình vuông 2
 forward(100)
 right(90)
 forward(100)
@@ -30,6 +36,10 @@ forward(100)
 right(90)
 forward(100)
 right(90)
+
+left(30)
+
+#hết hình vuông 3
 
 
 mainloop()
