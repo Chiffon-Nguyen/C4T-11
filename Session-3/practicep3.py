@@ -1,7 +1,7 @@
 from turtle import *
 bgcolor("white")
 shape("arrow")
-speed(6)
+speed(10)
 
 #hình tam giác
 
@@ -16,11 +16,12 @@ end_fill()
 pencolor("white")
 goto(50,-200)
 
-color("blue", "yellow")
+color("blue", "yellow") #Màu đầu là pencolor, màu thứ hai là fill shape
 begin_fill()
-circle(50)
+circle(50) 
 end_fill()
 
+#hình hoa 6 cánh
 pencolor("white")
 goto(-150,0)
 

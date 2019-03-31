@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Cats</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+	<script src="main.js"></script>
+</head>
+
+<style>
+	.red-text /**class trong CSS có dạng .class */ { 
+	  	color:tomato;
+		}
+	p {
+		font-size:16px;
+		font-family: calibri;
+	}
+	table {
+		border:2;
+		color:orangered
+	}
+</style>
+	  
+	<h2 class="red-text">CatPhotoApp</h2>
+	<main>
+		<p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
+<body>
+	<h2><strong>CatPhotoApp</strong></h2>
+	<main>
+		<p><em>Click here to view more <a href="#">cat photos</a>.</em></p>
+		<hr>
+		  
+		<a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back." width=100% height=100%></a>
+		  
+		<div>
+			<p>Things cats love:</p>
+			<ul>
+				<li>cat nip</li>
+				<li>laser pointers</li>
+				<li>lasagna</li>
+			</ul>
+				
+			<p>Top 3 things cats hate:</p>
+			<ol>
+				<li>flea treatment</li>
+				<li>thunder</li>
+				<li>other cats</li>
+			</ol>
+		</div>
+
+		<div>
+			<table name="Cat's Toys"> Cat's Toys
+				<tr>
+					<th>Item</th>
+					<th>Price</th>
+				</tr>
+				<tr>
+					<td>Wool</td>
+					<td>2$</td>
+				</tr>
+				<tr>
+					<td>Cat nip</td>
+					<td>2.5$</td>
+				</tr>
+				<tr>
+					<td>Pointer</td>
+					<td>1.5$</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<div>
+			<form action="/submit-cat-photo"> Submit cat photo below
+				<p>Please tick your type of cat</p>
+				<br> 
+				<span>
+					<label>
+						<input type="radio" name="test-name" checked>
+					</label>
+				</span>
+				<span>
+					<label for="indoor">
+						<input id="indoor" type="radio" name="indoor-outdoor"> Indoor
+					</label>
+				</span>
+				<span>
+					<label for="outdoor">
+						<input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor
+					</label>
+				</span>
+				<br>
+				<span>
+					<label>
+						<input type="checkbox" name="test-name" checked>
+					</label>
+				</span>
+				<span>
+					<label for="loving">
+						<input id="loving" type="checkbox" name="personality"> Loving 
+					</label>
+				</span>
+				<span>
+					<label for="mischievious">
+						<input id="mischievious" type="checkbox" name="personality"> Mischievious 
+					</label>
+				</span>
+				<span>
+					<label for="energetic">
+						<input id="energetic" type="checkbox" name="personality"> Energetic
+					</label>
+				</span>
+				<br>
+				<span>
+					Age <br>
+					<select name="age">
+						<option value="baby"> < 1 </option>
+						<option value="young">1-2</option>
+						<option value="adult">2-3</option>
+						<option value="old">>3</option>
+					</select>
+				</span>
+				<br>
+				
+				<input type="text" placeholder="cat photo URL" required>
+				<br>
+				<textarea name="story" rows="5" cols="50">
+					Do you have any further suggestions?
+				</textarea>
+				<br>
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+	</main>
+</body>
+</html>
