@@ -1,0 +1,16 @@
+h1 {
+    color:crimson;
+    font-size: 22px;
+}
+.burl{
+    color:mediumslateblue
+} 
+#link{
+    color:orchid
+} 
+.rect {
+    width: 100px;
+    height: 80px;
+    background-color: coral;
+    margin: 16px;
+}

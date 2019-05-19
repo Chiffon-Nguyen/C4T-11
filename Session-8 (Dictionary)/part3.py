@@ -31,7 +31,7 @@ quiz1Opt = {
 }
 print("Which is the name of a Jenny's book?", '\n')
 for k, v in quiz1Opt.items():
-    print(k,v)
+    print(k + ". " + v)
 quiz1Ans = input("Enter your answer: ")
 if quiz1Ans.upper() == "D":
     print("Correct answer")
